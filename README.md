@@ -8,14 +8,14 @@
 
 ## Introduction
 
-Problem Statement
+### Problem Statement
 
-Dataset
+### Dataset
 
 ## Analysis
 
-# Data Cleaning
+### Data Cleaning
 
-# Exploratory Analysis
+### Exploratory Analysis
 
-# Modeling
+### Modeling
