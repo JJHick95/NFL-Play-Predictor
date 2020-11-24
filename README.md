@@ -51,7 +51,7 @@ The play-by-play features that I felt would have most impact on a play being run
 ## Data Preparation
 Once I attained the initial dataset, I performed typical data preparation steps such as dropping NaN values and determining which features I deemed relevant for modeling and which ones were droppable. I then separated the regular season data from the postseason data, for in this context I was only concerned with predictablility in the regular season context. The next thing I did was create a column for my target variables of run/pass using the 'play_type' column. Once I had a target variable column created, the final thing I needed to check before the modeling process was the balance of my target variables. I determined that my pass plays outweighed my run plays by about 2:1, thus I used SMOTE to upsample my data when it came to the preprocessing steps before running models.
 
-## Modeling & Evaluation
+## Modeling and Evaluation
 The models I chose to perform predictive analysis on included LogisticRegression, DecisionTrees, RandomForest, ExtraTrees, and K-Nearest Neighbors. I used cross validation for the evaluation process of my models and ultimately chose the ExtraTrees model based on its performance in F1 score and accuracy.
 
 ## Explosive Play Analysis
@@ -70,7 +70,7 @@ I am currently learning how to work with Flask in order to deploy this model. My
 #### Logos
 I had issues with logos not being sized correctly on my visualizations. If you also run into this problem make sure to adjust logo sizes to your preference. I used a width of 1.39 to fix this issue.
 
-## Presentation & Sources
+## Presentation and Sources
  * [Presentation](https://github.com/howen7/Time-series-zillow#general-setup-instructions)
  
  * [Data Retrieval Using Python](https://gist.github.com/Deryck97/dff8d33e9f841568201a2a0d5519ac5e)
