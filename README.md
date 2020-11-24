@@ -2,7 +2,7 @@
 
 ### By: Jon Hickey
 
-![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Ftimclayton.photoshelter.com%2Fimage%2FI0000._zO6_SzdaA&psig=AOvVaw03X-RmgL2oQkZI6t_zc1-I&ust=1606322270096000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJDrs_jOm-0CFQAAAAAdAAAAABAO)
+![alt text]()
 
 ## Summary
 The goal of this project is to use machine learning algorithms to predict whether an offensive play will be a run or pass based on in-game features. I will look at which features are most important when predicting a run or pass play, which can be valuable information for a defensive coordinator when it comes to schematics defensive packages.
