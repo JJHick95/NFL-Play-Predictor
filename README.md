@@ -40,4 +40,8 @@ I performed additional analysis on a concept called explosive plays, which was c
 
 The original purpose of this concept of explosive plays was to give a coach a goal to shoot for in terms of yards gained in order to increase its probability of scoring on that drive. This information is very applicable to an offensive coordinator by giving them 'benchmarks' to hit, which should in turn influence their play calling to maximize scoring potential.
 
+## Future Improvements
+
+## Reproduction Instructions
+
 ## Presentation & Sources
