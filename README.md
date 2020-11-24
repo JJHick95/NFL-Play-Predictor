@@ -41,7 +41,20 @@ I performed additional analysis on a concept called explosive plays, which was c
 The original purpose of this concept of explosive plays was to give a coach a goal to shoot for in terms of yards gained in order to increase its probability of scoring on that drive. This information is very applicable to an offensive coordinator by giving them 'benchmarks' to hit, which should in turn influence their play calling to maximize scoring potential.
 
 ## Future Improvements
+I would like to continue my exploration using other models to see if I'm able to boost performance in cross validation metrics. Another goal is to perhaps seek out other feature combinations to optimize its performance.
+
+I am currently learning how to work with Flask in order to deploy this model. My goal is to allow an individual the ability to plug in real-time features of a play and have my model predict whether it thinks the play will be a run or pass. This capability would be extremely useful in the context of coaching.
 
 ## Reproduction Instructions
+#### Logos
+I had issues with logos not being sized correctly on my visualizations. If you also run into this problem make sure to adjust logo sizes to your preference. I used a width of 1.39 to fix this issue.
 
 ## Presentation & Sources
+ * [Presentation](https://github.com/howen7/Time-series-zillow#general-setup-instructions)
+ 
+ * [Data Retrieval Using Python](https://gist.github.com/Deryck97/dff8d33e9f841568201a2a0d5519ac5e)
+ * [Data Documentation](https://www.rdocumentation.org/packages/nflscrapR/versions/1.8.1/topics/scrape_json_play_by_play)
+ * [Explosive Plays](https://thepowersweep.com/blog/how-explosive-plays-affect-the-packers-aaron-rodgers)
+ 
+ * [README Image](https://www.google.com/url?sa=i&url=https%3A%2F%2Ftimclayton.photoshelter.com%2Fimage%2FI0000._zO6_SzdaA&psig=AOvVaw03X-RmgL2oQkZI6t_zc1-I&ust=1606322270096000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJDrs_jOm-0CFQAAAAAdAAAAABAO)
+ 
