@@ -12,9 +12,9 @@ The goal of this project is to use machine learning algorithms to predict whethe
 <!--ts-->
  * [Data Understanding](https://github.com/JJHick95/NFL-Play-Predictor#Data-Understanding)
  * [Data Preparation](https://github.com/JJHick95/NFL-Play-Predictor#Data-Preparation)
- * [Modeling & Evaluation](https://github.com/JJHick95/NFL-Play-Predictor#Modeling-&-Evaluation)
+ * [Modeling & Evaluation](https://github.com/JJHick95/NFL-Play-Predictor#Modeling-and-Evaluation)
  * [Explosive Play Analysis](https://github.com/JJHick95/NFL-Play-Predictor#Explosive-Play-Analysis)
- * [Presentation & Sources](https://github.com/JJHick95/NFL-Play-Predictor#Presentation-&-Sources)
+ * [Presentation & Sources](https://github.com/JJHick95/NFL-Play-Predictor#Presentation-and-Sources)
 <!--te-->
 
 ## Repository Navigation
