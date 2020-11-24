@@ -10,11 +10,11 @@ The goal of this project is to use machine learning algorithms to predict whethe
 ## Table of Contents
 
 <!--ts-->
- * [Data Understanding](https://github.com/howen7/Time-series-zillow#general-setup-instructions)
- * [Data Preparation](https://github.com/howen7/Time-series-zillow#Context)
- * [Modeling & Evaluation](https://github.com/howen7/Time-series-zillow#Definitions)
- * [Explosive Play Analysis](https://github.com/howen7/Time-series-zillow#Data)
- * [Presentation & Sources](https://github.com/howen7/Time-series-zillow#models-used--methodology)
+ * [Data Understanding](https://github.com/JJHick95/NFL-Play-Predictor#Data-Understanding)
+ * [Data Preparation](https://github.com/JJHick95/NFL-Play-Predictor#Data-Preparation)
+ * [Modeling & Evaluation](https://github.com/JJHick95/NFL-Play-Predictor#Modeling-&-Evaluation)
+ * [Explosive Play Analysis](https://github.com/JJHick95/NFL-Play-Predictor#Explosive-Play-Analysis)
+ * [Presentation & Sources](https://github.com/JJHick95/NFL-Play-Predictor#Presentation-&-Sources)
 <!--te-->
 
 ## Repository Navigation
