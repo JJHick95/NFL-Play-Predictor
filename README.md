@@ -41,13 +41,6 @@ The goal of this project is to use machine learning algorithms to predict whethe
 
 ```
 
-## Repo Navigation
- - [Getting Data to long Format](https://github.com/howen7/Time-series-zillow/tree/main/notebooks/exploratory/ImportData.ipynb)   
- - [Final summary notebook](https://github.com/howen7/Time-series-zillow/tree/main/notebooks/report/final_notebook.ipynb)
- - [Exploratory notebooks folder](https://github.com/howen7/Time-series-zillow/tree/main/notebooks/exploratory)
- - [src folder](https://github.com/howen7/Time-series-zillow/tree/main/src)
- - [Presentation.pdf](https://github.com/howen7/Time-series-zillow/tree/main/reports)
-
 ## Data Understanding
 I used a package called nflfastR to source my data, which is based off of the nflscrapR package, but it speeds up the process of scraping new play-by-play data. This package was created so its users could analyze data from the National Football League API in a more reproducible way for the continued growth of football analytics. It allowed me to perform analysis on about 90,000 plays between the seasons of 2018 and 2020. Having chosen recent seasons to perform analysis on, I should be able to pick up on play calling trends to allow for better extrapolation into the future.
 
