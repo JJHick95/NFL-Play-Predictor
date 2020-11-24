@@ -17,6 +17,30 @@ The goal of this project is to use machine learning algorithms to predict whethe
  * [Presentation & Sources](https://github.com/howen7/Time-series-zillow#models-used--methodology)
 <!--te-->
 
+```
+.
+├── README.md
+|
+├── environment.txt
+|
+├── notebooks
+|   |__ DataFrame.ipynb
+|   |__ EDA.ipynb
+|   |__ Models.ipynb
+|   |__ Pickle_Test.ipynb
+|
+├── reports
+│   └── Presentation_deck
+└── figures
+    ├── data
+    │   ├── zillow_data_lf.csv
+    │   ├── zillow_data.csv
+    │   └── zip_data.npy
+    └── mymods.py
+    
+
+```
+
 ## Repo Navigation
  - [Getting Data to long Format](https://github.com/howen7/Time-series-zillow/tree/main/notebooks/exploratory/ImportData.ipynb)   
  - [Final summary notebook](https://github.com/howen7/Time-series-zillow/tree/main/notebooks/report/final_notebook.ipynb)
@@ -39,6 +63,8 @@ The models I chose to perform predictive analysis on included LogisticRegression
 I performed additional analysis on a concept called explosive plays, which was created by a gentleman named Mike Eayrs in the 1970s and 1980s. I used his findings to create separate dataframes consisting of only 'explosive plays' from the years 2018 to 2020 to see if they showed correlations with wins and losses of a football team.
 
 The original purpose of this concept of explosive plays was to give a coach a goal to shoot for in terms of yards gained in order to increase its probability of scoring on that drive. This information is very applicable to an offensive coordinator by giving them 'benchmarks' to hit, which should in turn influence their play calling to maximize scoring potential.
+
+In order to create each dataframe for its respective year (2018-2020), I turned the 'game_date' column into a datetime object to simplify the grouping process. I proceeded to use the date as criteria for forming data dataframes of each season to find explosive plays on both offense and defense. The allowed me to find the NET explosive plays for each team which were plotted against the number of wins to see how they correlate.
 
 ## Future Improvements
 I would like to continue my exploration using other models to see if I'm able to boost performance in cross validation metrics. Another goal is to perhaps seek out other feature combinations to optimize its performance.
