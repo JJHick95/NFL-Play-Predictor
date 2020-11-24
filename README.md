@@ -17,6 +17,8 @@ The goal of this project is to use machine learning algorithms to predict whethe
  * [Presentation & Sources](https://github.com/howen7/Time-series-zillow#models-used--methodology)
 <!--te-->
 
+## Repository Navigation
+
 ```
 .
 ├── README.md
