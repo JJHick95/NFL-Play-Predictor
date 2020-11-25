@@ -1,7 +1,5 @@
 # NFL Play Predictor
 
-### By: Jon Hickey
-
 ![alt text](/figures/football_field.jpg)
 
 ## Summary
