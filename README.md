@@ -20,8 +20,8 @@ The goal of this project is to use machine learning algorithms to predict whethe
 ```
 .
 ├── README.md
-|
 ├── environment.txt
+|__ .gitignore
 |
 ├── notebooks
 |   |__ DataFrame.ipynb
