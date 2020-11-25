@@ -30,13 +30,15 @@ The goal of this project is to use machine learning algorithms to predict whethe
 |   |__ Pickle_Test.ipynb
 |
 ├── reports
-│   └── Presentation_deck
+│   |── Presentation_deck
+|   |__ Final_notebook
+|   
 └── figures
-    ├── data
-    │   ├── zillow_data_lf.csv
-    │   ├── zillow_data.csv
-    │   └── zip_data.npy
-    └── mymods.py
+    ├── 
+    │ 
+    │
+    │  
+    └── 
     
 
 ```
