@@ -71,7 +71,7 @@ I am currently learning how to work with Flask in order to deploy this model. My
 I had issues with logos not being sized correctly on my visualizations. If you also run into this problem make sure to adjust logo sizes to your preference. I used a width of 1.39 to fix this issue.
 
 ## Presentation and Sources
- * [Presentation](https://github.com/howen7/Time-series-zillow#general-setup-instructions)
+ * [Presentation](/reports/NFL_Predictor_Pres.pdf)
  
  * [Data Retrieval Using Python](https://gist.github.com/Deryck97/dff8d33e9f841568201a2a0d5519ac5e)
  * [Data Documentation](https://www.rdocumentation.org/packages/nflscrapR/versions/1.8.1/topics/scrape_json_play_by_play)
