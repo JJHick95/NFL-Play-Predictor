@@ -34,11 +34,11 @@ The goal of this project is to use machine learning algorithms to predict whethe
 |   |__ Final_notebook (Pending)
 |   
 └── figures
-    ├── 
+    ├── football_field.jpg
     │ 
     │
     │  
-    └── 
+    └── (Others Pending)
     
 
 ```
