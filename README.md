@@ -69,6 +69,8 @@ I would like to continue my exploration using other models to see if I'm able to
 I am currently learning how to work with Flask in order to deploy this model. My goal is to allow an individual the ability to plug in real-time features of a play and have my model predict whether it thinks the play will be a run or pass. This capability would be extremely useful in the context of coaching, potentially even becoming an aspect in the future of coaching.
 
 ## Reproduction Instructions
+This project relies on you using the requirements.txt file to recreate the NFL Predictor. To do so, please run the following commands in your terminal:
+
 #### Logos
 I had issues with logos not being sized correctly on my visualizations. If you also run into this problem make sure to adjust logo sizes to your preference. I used a width of 1.39 to fix this issue.
 
