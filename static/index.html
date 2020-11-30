@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--
+      This is the title that appears in the browser tab.
+      Replace it with the title of your app
+    -->
+    <title>NFL Play Predictor</title>
+    <link rel="stylesheet" media="screen" href="/static/bootstrap.min.css">
+    <!-- If you add custom CSS, put it after the above bootstrap link -->
+  </head>
+  <body>
+    <div class="container">
+      <!-- 
+        This top section has the gray background and large text containing the
+        name of the app
+      -->
+      <div class="jumbotron">
+        <!-- Replace with the name of your app-->
+        <h1 class="display-4">NFL Play Predictor</h1>
+      </div>
+      <!-- This section contains a photo + the form for the user to enter data-->
+      <div class="container"> 
+        <div class="row">
+          <div class="col-md-4" style="text-align: center;">
+            <!--
+              Replace with a photo relevant to your project (and caption if
+              applicable). It will automatically fill the same width as the
+              template version due to CSS styling.
+            -->
+            <img src="/static/football_field.jpg" alt="NFL-Football-Field" style="width: 100%;">
+            <span style="font-size: small;">Photo by
+              <a href="https://timclayton.photoshelter.com/image/Tim%20Clayton">
+                Tim Clayton
+              </a>
+              on
+              <a href="https://timclayton.photoshelter.com/image/I0000._zO6_SzdaA">
+                PhotoShelter
+              </a>
+            </span>
+          </div>
+          <div class="col-md-8">
+            <!--
+              Replace all labels and inputs with the relevant features for your
+              model
+              Attributes to note:
+              id: this is used on the front end to link the label to the input
+              name: this is used on the back end when you submit the form; it
+                becomes the key in the params dictionary
+              value: this is the default value of the input. not necessary but
+                helpful for speeding up demos
+              The <br>s between each label/input combo are a quick and easy way
+              to put each one on its own line. They aren't necessary for the
+              form to function but they help the flow without needing a lot of
+              nested <div>s to achieve the desired layout
+            -->
+            <form action="/make_prediction" method="post">
+              <label for="input-1">Minutes Remaining in Game</label>
+              <input type="text" id="input-1" name="game_minutes_remaining" value="">
+              <br>
+              <label for="input-2">Minutes Remaining in Half</label>
+              <input type="text" id="input-2" name="half_minutes_remaining" value="">
+              <br>
+              <label for="input-3">Minutes Remaining in Quarter</label>
+              <input type="text" id="input-3" name="quarter_minutes_remaining" value="">
+              <br>
+              <label for="input-4">Quarter</label>
+              <input type="text" id="input-4" name="qtr" value="">
+              <br>
+              <label for="input-5">Down</label>
+              <input type="text" id="input-5" name="down" value="">
+              <br>
+              <label for="input-6">Drive</label>
+              <input type="text" id="input-6" name="drive" value="">
+              <br>
+              <label for="input-7">Offensive Team Score</label>
+              <input type="text" id="input-7" name="posteam_score" value="">
+              <br>
+              <label for="input-8">Defensive Team Score</label>
+              <input type="text" id="input-8" name="defteam_score" value="">
+              <br>
+              <label for="input-9">Score Differential</label>
+              <input type="text" id="input-9" name="score_differential" value="">
+              <br>
+              <label for="input-10">Yard Line (Out of 100)</label>
+              <input type="text" id="input-10" name="yardline_100" value="">
+              <br>
+              <label for="input-11">Goal Down Situation? (No = 0, Yes = 1)</label>
+              <input type="text" id="input-11" name="goal_to_go" value="">
+              <br>
+              <label for="input-12">Yards to 1st down? If goal down situation, yards to endzone?</label>
+              <input type="text" id="input-12" name="ydstogo" value="">
+              <br>
+              <label for="input-13">Remaining Offensive Team Timeouts</label>
+              <input type="text" id="input-13" name="posteam_timeouts_remaining" value="">
+              <br>
+              <label for="input-14">Remaining Defensive Team Timeouts</label>
+              <input type="text" id="input-14" name="defteam_timeouts_remaining" value="">
+              <br>
+              <label for="input-15">Shotgun Formation? (No = 0, Yes = 1)</label>
+              <input type="text" id="input-15" name="shotgun" value="">
+              <br>
+              <label for="input-16">No Huddle? (No = 0, Yes = 1)</label>
+              <input type="text" id="input-16" name="no_huddle" value="">
+              <br>
+              <label for="input-17">Win Probability (Use Decimal) (https://live.numberfire.com/nfl)</label>
+              <input type="text" id="input-17" name="wp" value="">
+              <!--
+                Note on "select" (drop-down): the value is what is sent as the
+                value in the params dictionary, the text between the tags is
+                what the user sees
+              -->
+              <!-- <select id="input-3" name="winter_severity_index">
+                <option value="1.0">1 (Mild)</option>
+                <option value="2.0">2</option>
+                <option value="3.0">3</option>
+                <option value="4.0">4</option>
+                <option value="5.0">5 (Severe)</option>
+              </select>
+              <br> -->
+              <!-- You shouldn't need to change the submit button -->
+              <input type="submit" class="btn btn-primary btn-lg" value="Predict!">
+            </form>
+          </div>
+        </div>  
+      </div>
+      <!-- hr is "horizontal rule". it makes a nice classy line -->
+      <hr>
+      <!-- This section contains paragraphs of text at the bottom -->
+      <div class="container">
+        <!--
+          Replace with your content. The <p> tags are how you create new
+          paragraphs. If you just hit enter, the text will "float" up to the
+          previous line
+        -->
+        <!-- <p>
+          Some cool content will go here
+        </p> -->
+        <p>
+          This app predicts whether a play in the NFL will be run or pass based on pre-snap information
+          that you input above.
+        </p>
+        <p>
+          Based on data analysis and model performances, you are running pre-snap information through
+          an ExtraTrees Classification Model that has shown 74% accuracy when it comes to predicting whether
+          a play will be run or pass. Good Luck!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

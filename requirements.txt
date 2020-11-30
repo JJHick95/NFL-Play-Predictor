@@ -36,6 +36,7 @@ entrypoints @ file:///home/conda/feedstock_root/build_artifacts/entrypoints_1605
 ephem @ file:///Users/runner/miniforge3/conda-bld/ephem_1602326529881/work
 et-xmlfile==1.0.1
 fbprophet @ file:///Users/runner/miniforge3/conda-bld/fbprophet_1599365543906/work
+Flask==1.1.2
 folium @ file:///home/conda/feedstock_root/build_artifacts/folium_1588861378954/work
 future @ file:///Users/runner/miniforge3/conda-bld/future_1605203509162/work
 gast==0.3.3
@@ -59,6 +60,7 @@ ipykernel @ file:///opt/concourse/worker/volumes/live/88f541d3-5a27-498f-7391-f2
 ipython @ file:///Users/runner/miniforge3/conda-bld/ipython_1602640419216/work
 ipython-genutils==0.2.0
 ipywidgets @ file:///home/conda/feedstock_root/build_artifacts/ipywidgets_1599554010055/work
+itsdangerous==1.1.0
 jdcal==1.4.1
 jedi @ file:///Users/runner/miniforge3/conda-bld/jedi_1605054549816/work
 Jinja2==2.11.2
