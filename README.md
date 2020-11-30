@@ -70,8 +70,15 @@ I am currently learning how to work with Flask in order to deploy this model. My
 
 ## Reproduction Instructions
 Ensure that you have installed [Anaconda](https://docs.anaconda.com/anaconda/install/)
-This project relies on you using the [`requirements.txt`](requirements.txt) file to recreate the NFL Predictor. To do so, please run the following commands in your terminal:
 
+This project relies on you using the [`requirements.txt`](requirements.txt) file to recreate the NFL Predictor. To do so, please run the following commands in your terminal:
+```bash
+# using pip
+pip install -r requirements.txt
+
+# using Conda
+conda create --name <env_name> --file requirements.txt
+```
 #### Logos
 I had issues with logos not being sized correctly on my visualizations. If you also run into this problem make sure to adjust logo sizes to your preference. I used a width of 1.39 to fix this issue.
 
