@@ -20,7 +20,7 @@ The goal of this project is to use machine learning algorithms to predict whethe
 ```
 .
 ├── README.md
-├── environment.txt
+├── requirements.txt
 |__ .gitignore
 |
 ├── notebooks
@@ -31,8 +31,29 @@ The goal of this project is to use machine learning algorithms to predict whethe
 |
 ├── reports
 │   |── NFL_Predictor_Pres.pdf
-|   |__ Final_notebook (Pending)
-|   
+|   |__ Capstone_Final_Notebook.ipynb
+|
+|-- deployment_material
+|   |__ src
+|   |   |__utils.py
+|   |   |__ models
+|   |       |__ final_pipeline.p
+|   |       |__ predictor.py
+|   |       |__  __pycache__
+|   |
+|   |__ static
+|   |   |__ index.html
+|   |   |__ bootstrap.min.css
+|   |   |__ football_field.jpg
+|   |   |__ handoff.jpg
+|   |   |__ pass.jpg
+|   |
+|   |__ templates
+|   |   |__ results.html
+|   |
+|   |__ app.py
+|
+|
 └── figures
     ├── football_field.jpg
     │ 
