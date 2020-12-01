@@ -39,7 +39,6 @@ The goal of this project is to use machine learning algorithms to predict whethe
 |   |   |__ models
 |   |       |__ final_pipeline.p
 |   |       |__ predictor.py
-|   |       |__  __pycache__
 |   |
 |   |__ static
 |   |   |__ index.html
