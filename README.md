@@ -55,12 +55,7 @@ The goal of this project is to use machine learning algorithms to predict whethe
 |
 └── figures
     ├── football_field.jpg
-    │ 
-    │
-    │  
-    └── (Others Pending)
     
-
 ```
 
 ## Data Understanding
