@@ -85,7 +85,7 @@ I chose recall score as my metric because I believe its more detrimental to fals
 ## Future Improvements
 I would like to continue exploring other models and feature combinations to see if I'm able to boost performance in cross validation metrics.
 
-I would like to complete the live deployment process of my ExtraTrees model on the web, as it currently only runs in a development environment. My goal is to allow an individual the ability to plug in real-time features of a play and have my model predict whether it thinks the play will be a run or pass. Providing this capability to a coach would be an extremely useful addition and might even become how coaching is done in the future.
+I would like to complete the live deployment process of my ExtraTrees model on the web, as it currently runs in a developmental environment. My goal is to allow an individual the ability to plug in real-time features of a play and have my model predict whether it thinks the play will be a run or pass. Providing this capability to a coach would be an extremely useful addition and might even become how coaching is done in the future.
 
 ## Reproduction Instructions
 Ensure that you have installed [Anaconda](https://docs.anaconda.com/anaconda/install/)
