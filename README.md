@@ -56,7 +56,7 @@ With the help of machine learning, I've created a model that takes in play-by-pl
 |
 |
 └── figures
-    ├── football_field.jpg
+    |__ football_field.jpg
     
 ```
 
