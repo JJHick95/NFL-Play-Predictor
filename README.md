@@ -103,6 +103,7 @@ I had issues with logos not being sized correctly on my visualizations. If you a
 
 ## Presentation and Sources
  * [Presentation](/reports/Presentation.pdf)
+ * [Final Notebook](/reports/Capstone_Final_Notebook.pdf)
  
  * [Data Retrieval Using Python](https://gist.github.com/Deryck97/dff8d33e9f841568201a2a0d5519ac5e)
  * [Data Documentation](https://www.rdocumentation.org/packages/nflscrapR/versions/1.8.1/topics/scrape_json_play_by_play)
