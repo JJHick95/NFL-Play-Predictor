@@ -137,4 +137,4 @@ dmypy.json
 # Visual Studio Code settings
 .vscode
 
-.DS_Store
+*.DS_Store
