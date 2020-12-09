@@ -86,7 +86,7 @@ Markdown==3.3.1
 MarkupSafe #@ file:///Users/runner/miniforge3/conda-bld/markupsafe_1602267327822/work
 matplotlib #@ file:///Users/runner/miniforge3/conda-bld/matplotlib-base_1597952415268/work
 mistune #@ file:///Users/runner/miniforge3/conda-bld/mistune_1605115675096/work
-mkl-fft==1.2.0
+mkl-fft==1.0.6
 mkl-random==1.2.0
 mkl-service==2.3.0
 multidict #@ file:///Users/runner/miniforge3/conda-bld/multidict_1602413144598/work
