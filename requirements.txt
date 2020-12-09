@@ -88,7 +88,7 @@ matplotlib #@ file:///Users/runner/miniforge3/conda-bld/matplotlib-base_15979524
 mistune #@ file:///Users/runner/miniforge3/conda-bld/mistune_1605115675096/work
 mkl-fft==1.0.6
 mkl-random==1.0.1
-mkl-service==1.0.0
+#mkl-service==1.0.0
 multidict #@ file:///Users/runner/miniforge3/conda-bld/multidict_1602413144598/work
 nbclient #@ file:///home/conda/feedstock_root/build_artifacts/nbclient_1598558657104/work
 nbconvert #@ file:///Users/runner/miniforge3/conda-bld/nbconvert_1605401854594/work
