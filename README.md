@@ -1,6 +1,6 @@
-# NFL Play Predictor
-
 ![alt text](/figures/football_field.jpg)
+
+# NFL Play Predictor
 
 ## Business Understanding
 Knowing what the next play is in any sport would be a huge advantage. The question I want to explore is whether or not data can accurately provide the defense with this advantage in the game of football.
