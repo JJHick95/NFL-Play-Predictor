@@ -114,6 +114,6 @@ I had issues with logos not being sized correctly on my visualizations. If you a
 ## Contact Information
 With questions or feedback on this repository, please reach out via:
 
--[Github](https://github.com/JJHick95/NFL-Play-Predictor/)
+ * [Github](https://github.com/JJHick95/NFL-Play-Predictor/)
 
--[LinkedIn](https://www.linkedin.com/in/jon-hickey/)
+ * [LinkedIn](https://www.linkedin.com/in/jon-hickey/)
