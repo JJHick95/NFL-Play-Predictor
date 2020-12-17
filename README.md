@@ -111,3 +111,8 @@ I had issues with logos not being sized correctly on my visualizations. If you a
  
  * [README Image](https://www.google.com/url?sa=i&url=https%3A%2F%2Ftimclayton.photoshelter.com%2Fimage%2FI0000._zO6_SzdaA&psig=AOvVaw03X-RmgL2oQkZI6t_zc1-I&ust=1606322270096000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJDrs_jOm-0CFQAAAAAdAAAAABAO)
  
+## Contact Information
+With questions or feedback on this repository, please reach out via:
+
+-[Github](https://github.com/JJHick95/NFL-Play-Predictor/)
+-[LinkedIn](https://www.linkedin.com/in/jon-hickey/)
